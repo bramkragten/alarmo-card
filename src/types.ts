@@ -5,7 +5,7 @@ import { AlarmStates, AlarmoEvents } from './const';
 export type EntityName = string | EntityNameItem | EntityNameItem[];
 
 export type EntityNameItem =
-  | { type: 'entity' | 'device' | 'parent_device' | 'area' | 'floor' }
+  | { type: 'entity' | 'device' | 'area' | 'floor' }
   | { type: 'text'; text: string };
 
 export type CardConfig = {
